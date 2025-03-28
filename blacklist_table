@@ -1,6 +1,0 @@
-CREATE TABLE blacklist (
-    id SERIAL PRIMARY KEY,
-    id_number VARCHAR(100) UNIQUE,
-    reason VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
