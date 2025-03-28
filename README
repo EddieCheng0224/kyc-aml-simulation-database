@@ -32,3 +32,20 @@ I created the following fake data:
 1. Create a new database in your SQL environment.
 2. Copy and execute the SQL code to create the tables and insert fake data.
 3. Run the SQL queries to detect suspicious transactions and blacklist users.
+
+
+KYC / AML 模擬資料庫
+此專案展示了一個模擬的 KYC（了解你的客戶）和 AML（反洗錢）資料庫，展示了金融機構中通常進行的基本合規檢查。該資料庫包含了用戶資料、交易記錄和黑名單等基本組件。
+
+主要功能：
+
+用戶資料表：儲存基本的用戶信息，如姓名、國籍和身份證號碼等。
+交易記錄表：跟蹤所有用戶交易，包括存款和取款行為，並根據預定的條件標記可疑交易。
+黑名單表：識別需要額外審查的用戶，在 KYC/AML 檢查中需要特別注意的人物。
+內容包括：
+SQL 架構：定義良好的資料庫結構，包括用戶資料表、交易記錄表和黑名單表。
+模擬資料：用於展示 KYC/AML 檢查的假用戶和交易記錄。
+SQL 查詢：包括檢查可疑交易、檢查黑名單用戶、根據特定條件（例如交易金額超過 10,000 美元）標記交易的 SQL 查詢。
+此專案旨在提供一個實際的示例，展示如何使用 SQL 和資料庫設計來實現 KYC 和 AML 檢查。對於那些對金融和科技交集感興趣的使用者，這是一個有用的資源，有助於理解金融行業中的合規流程。
+
+歡迎探索並根據需要自定義資料庫。你可以在任何 SQL 環境（如 MySQL、PostgreSQL）中運行提供的 SQL 腳本來設置資料庫並開始運行合規檢查。
