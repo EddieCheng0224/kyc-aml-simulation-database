@@ -1,0 +1,34 @@
+# KYC / AML Simulated Database
+
+This is a simulated KYC/AML database I designed to demonstrate how to perform KYC and AML checks using SQL. This project includes the following:
+
+## Database Structure
+
+- **users**: Stores user data.
+- **transactions**: Stores user transaction records.
+- **blacklist**: Stores users who need to undergo KYC/AML checks.
+
+## Fake Data
+
+I created the following fake data:
+
+- Users: John Doe (normal user) and Jane Smith (blacklisted).
+- Transactions: John has a suspicious transaction flagged.
+- Blacklist: Jane Smith's ID is flagged in the blacklist.
+
+## SQL Queries
+
+1. **Check Blacklist Users**:
+   Query to check which users are in the blacklist.
+
+2. **Check Suspicious Transactions**:
+   Query to flag all transactions greater than $10,000 as suspicious.
+
+3. **Check Abnormal Transactions**:
+   Query to check users who perform abnormal transaction activity (more than 5 transactions in a day).
+
+## How to Run
+
+1. Create a new database in your SQL environment.
+2. Copy and execute the SQL code to create the tables and insert fake data.
+3. Run the SQL queries to detect suspicious transactions and blacklist users.
