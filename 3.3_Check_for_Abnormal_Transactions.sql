@@ -1,6 +1,6 @@
-###3.3_Check_for_Abnormal_Transactions
+----3.3_Check_for_Abnormal_Transactions
 
-###This query checks if a user has more than five transactions in a day, marking them as suspicious.
+----This query checks if a user has more than five transactions in a day, marking them as suspicious.
 
 SELECT t.user_id, COUNT(t.transaction_id) AS suspicious_count
 FROM transactions t
