@@ -1,5 +1,5 @@
-####Creating Fake Data
-####To perform KYC/AML checks, we need some sample data. These will be used to test SQL queries and checking logic.
+----Creating Fake Data
+----To perform KYC/AML checks, we need some sample data. These will be used to test SQL queries and checking logic.
 
 INSERT INTO users (first_name, last_name, dob, nationality, address, id_number)
 VALUES
