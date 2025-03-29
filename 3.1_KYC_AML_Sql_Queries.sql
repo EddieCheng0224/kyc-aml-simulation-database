@@ -1,7 +1,6 @@
- ###KYC/AML Check SQL Queries
-###3.1 Check if a User is in the Blacklist
-
-###This query checks if a user is in the blacklist.
+----KYC/AML Check SQL Queries
+----3.1 Check if a User is in the Blacklist
+----This query checks if a user is in the blacklist.
 
 
 SELECT 
